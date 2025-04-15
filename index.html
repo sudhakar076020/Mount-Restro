@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Restro</title>
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- scss -->
+     <link rel="stylesheet" href="style.css">
+     <!-- bootstrap  -->
+     <link href="https://img.freepik.com/premium-vector/mountain-restaurant-logo-template-design-vector-illustration-fun-outdoor-travel-food_279597-604.jpg" />
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+     <script src="https://kit.fontawesome.com/67d8ceb5cb.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <!-- nav bar container -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://img.freepik.com/premium-vector/mountain-restaurant-logo-template-design-vector-illustration-fun-outdoor-travel-food_279597-604.jpg" class="nav-logo-img" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" href="#wcuSection" id="navItem1">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#exploremenuSection" id="navItem2">Menu</a>
+                    <a class="nav-link" href="#deliverypaymentSection" id="navItem3">About Us</a>
+                    <a class="nav-link" href="#followusSection" id="navItem4">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--home banner container -->
+    <header>
+    <div class="banner-bg-container d-flex flex-column justify-content-center">
+        <div class="text-center">
+            <h1 class="banner-heading mb-3">Get Delicious Food Anytime</h1>
+            <p class="banner-paragraph mb-4">Eat Healthy Food</p>
+            <button class="button-view-more">View Menu</button>
+            <button class="button-order-now">Order Now</button>
+        </div>
+    </div>
+    </header>
+
+    <!-- sample container -->
+    <div class="sample-container p-5">
+        <div class="container">
+            <div class="row sample-items d-flex flex-row justify-content-center">
+                <div class="col-12 col-md-6 mb-4">
+                    <img class="sample-img w-100" src="./sample img/tamilnadu food img.jpg" alt="tamilnadu food" />
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="sample-text"><span class="tn-text">Indian</span> food history spans centuries, blending indigenous practices with diverse influences. Ancient literature showcases early diets. Dynasties and trade introduced new ingredients and techniques. Spices drove global commerce. Chettinad cuisine developed distinct flavors. Traditional methods like stone grinding remain. Temple cuisines and feasts flourished. British influence added subtle changes. The food reflects cultural exchange and adaptation. It's a rich, diverse culinary heritage.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- categories container -->
+    <div class="categories-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="categories-heading">Menu categories</h1>
+                </div>
+            </div>
+            <div class="row cate-item">
+                <div  class="col-6 col-md-3">
+                    <div id="tnItems" class="each-item">
+                        <img class="cate-img selected-menu" src="./cate place img/tamilNadu img.jfif" />
+                        <p class="cate-name">Tamil Nadu</p>
+                    </div>
+                </div>
+                <div  class="col-6 col-md-3">
+                    <div id="klItems" class="each-item">
+                        <img class="cate-img" src="./cate place img/kerala.jpg" />
+                        <p class="cate-name">Kerala</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div id="niItems" class="each-item">
+                        <img class="cate-img" src="./cate place img/north Indian.jfif" />
+                        <p class="cate-name">North Indian</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div id="apItems" class="each-item">
+                        <img class="cate-img" src="./cate place img/andhra.jpg" />
+                        <p class="cate-name">Andhara</p>
+                    </div>
+                </div>
+            </div>
+            <!--categories menu items  container-->
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="menu-heading">Menu Items</h1>
+                </div>
+            </div>
+
+            <!-- TamiNadu food menu -->
+            <div id="tamilNaduMenu">
+                <div class="row dish-container">
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card">
+                            <img class="dish-img" src="./TN foods/idly img.jfif" />
+                            <p class="dish-name">Idly</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card">
+                            <img class="dish-img" src="./TN foods/dosa img.jpg" />
+                            <p class="dish-name">Dosa</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card">
+                            <img class="dish-img" src="./TN foods/pongal img.jpg" />
+                            <p class="dish-name">Pongal</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card">
+                            <img class="dish-img" src="./TN foods/vadai img.jfif" />
+                            <p class="dish-name">Vadai</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card">
+                            <img class="dish-img" src="./TN foods/poori.jpg" />
+                            <p class="dish-name">Poori</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card ">
+                            <img class="dish-img" src="./TN foods/coffee img.jfif" />
+                            <p class="dish-name">Filter Coffee</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Kerala food menu -->
+            <div id="keralaMenu">
+                <div class="row dish-container">
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card">
+                            <img class="dish-img" src="./kerala foods/Appam and stew.jfif" />
+                            <p class="dish-name">Appam and stew</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card">
+                            <img class="dish-img" src="./kerala foods/Puttu and kadala curry.jfif" />
+                            <p class="dish-name">Puttu and kadala curry</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card">
+                            <img class="dish-img" src="./kerala foods/Meen curry.png" />
+                            <p class="dish-name">Meen curry </p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card">
+                            <img class="dish-img" src="./kerala foods/Malabar prawn curr.jfif" />
+                            <p class="dish-name">Malabar prawn curry</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card">
+                            <img class="dish-img" src="./kerala foods/Kappa and meen curry.webp" />
+                            <p class="dish-name">Kappa and meen curry</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card ">
+                            <img class="dish-img" src="./kerala foods/Idiyappa.webp" />
+                            <p class="dish-name">Idiyappa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- North Indian food menu -->
+            <div id="northIndianMenu">
+                <div class="row dish-container">
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card">
+                            <img class="dish-img" src="./north ind foods/Daal-baati.webp" />
+                            <p class="dish-name">Daal-baati</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card">
+                            <img class="dish-img" src="./north ind foods/Butter chicken.jpg" />
+                            <p class="dish-name">Butter Chicken</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card">
+                            <img class="dish-img" src="./north ind foods/Dal Makhani.jfif" />
+                            <p class="dish-name">Dal Makhani</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card">
+                            <img class="dish-img" src="./north ind foods/Naan.jpg" />
+                            <p class="dish-name">Naan</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card">
+                            <img class="dish-img" src="./north ind foods/Alu paratha.jpg" />
+                            <p class="dish-name">Alu paratha</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card ">
+                            <img class="dish-img" src="./north ind foods/Biryani.jfif" />
+                            <p class="dish-name">Biryani</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- andhra pradesh food menu -->
+            <div id="andhraPradeshMenu">
+                <div class="row dish-container">
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card">
+                            <img class="dish-img" src="./Andhra foods/Andhra chicken biryani.jfif" />
+                            <p class="dish-name">Andhra chicken biryani</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card">
+                            <img class="dish-img" src="./Andhra foods/Hyderabadi biryani.jfif" />
+                            <p class="dish-name">Hyderabadi biryani</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card">
+                            <img class="dish-img" src="./Andhra foods/Pulihora.jpg" />
+                            <p class="dish-name">Pulihora</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card">
+                            <img class="dish-img" src="./Andhra foods/Punugulu.jfif" />
+                            <p class="dish-name">Punugulu</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card">
+                            <img class="dish-img" src="./Andhra foods/Andhra fish curry.jfif" />
+                            <p class="dish-name">Fish Curry</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="dish-card ">
+                            <img class="dish-img" src="./Andhra foods/Panasa Puttu Koora.jpg" />
+                            <p class="dish-name">Panasa Puttu Koora</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </div>
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
