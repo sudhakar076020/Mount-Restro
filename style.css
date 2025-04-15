@@ -1,0 +1,152 @@
+.nav-logo-img {
+    height: 40px;
+    width: 40px;
+  }
+  
+  #navItem1, #navItem2, #navItem3, #navItem4 {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-family: "Roboto";
+    font-weight: 200;
+  }
+  
+  .banner-bg-container {
+    background-image: url("https://img.freepik.com/premium-photo/variety-spices-herbs-background-black-table-with-empty-space-generative-ai_438099-13945.jpg?uid=R188286112&ga=GA1.1.1300893303.1737217554&semt=ais_hybrid");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+  }
+  
+  .banner-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: lighter;
+    font-size: 48px;
+  }
+  
+  .banner-paragraph {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: lighter;
+    font-size: 36px;
+  }
+  
+  .button-view-more {
+    height: 36px;
+    width: 135px;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-family: "Roboto";
+    font-weight: 300;
+    background-color: #ffffff;
+    color: #000000;
+    border-style: none;
+  }
+  
+  .button-order-now {
+    height: 36px;
+    width: 135px;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-family: "Roboto";
+    font-weight: 300;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+  }
+  
+  .sample-container {
+    background-color: #FFAA33;
+  }
+  
+  .sample-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+  
+  .sample-img {
+    border-radius: 10px;
+  }
+  
+  .sample-text {
+    color: #ffffff;
+    text-align: justify;
+    font-size: 20px;
+  }
+  .sample-text .tn-text {
+    color: #000000;
+  }
+  
+  .categories-heading {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 400;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .each-item {
+    margin-top: 5px;
+    height: auto;
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+  .each-item .cate-img {
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 150px;
+    border: 5px solid #FFAA33;
+  }
+  .each-item .cate-name {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+  }
+  
+  .menu-heading {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 400;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .dish-card {
+    margin-top: 5px;
+    height: auto;
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+  .dish-card .dish-img {
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 150px;
+    border: 5px solid #FFAA33;
+  }
+  .dish-card .dish-name {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+  }
+
